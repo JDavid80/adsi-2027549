@@ -1,3 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+div#main {
+    width: 100%;
+}
 h1 {
     text-align: center;
 }
+/* Movil */
+@media only screen and (max-width: 767px) {
+    div.content-img {
+        width: 100%;
+        margin: 0 auto 0 auto;
+    }
+    img.catalogo {
+        width: 100%;
+        display: block;
+        margin: 0 auto 1em auto;
+    }
+}
+/* Tablets / Ipad */
+@media only screen and (min-width: 768px)
+and (max-width: 1023px) {
+    div.content-img {
+        width: 49%;
+        float: left;
+        margin-right: 1%;
+        margin-left: 0%;
+        margin-bottom: 1.5%;
+    }
+    img.catalogo {
+        width: 100%;
+        display: block;
+        margin: 0 auto 1em auto;
+    }
+} 
