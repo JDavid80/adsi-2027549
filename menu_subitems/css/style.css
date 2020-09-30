@@ -1,3 +1,4 @@
+/* Estilos generales */
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -48,10 +49,10 @@ nav li:hover > ul > li{
     overflow: visible;
 }
 .menu > li > ul {
-    top: 100%;
+    top: 102%;
 }
 /* Tercer Nivel */
 .menu ul ul {
-    left: 100%;
+    left: 101%;
     top: 0;
 }
