@@ -76,7 +76,6 @@ header nav ul li a span {
         background:  rgb(222,1,8);
         top: 0;
     }
-    
     .menu_bar .bt-menu {
         display: block;
         padding: 20px;
@@ -128,5 +127,8 @@ header nav ul li a span {
     }
     header nav ul li .icon-chevron-small-down {
         float: right;
+    }
+    header nav ul li .children {
+        margin-left: 10px;
     }
 }

@@ -1,0 +1,34 @@
+body {
+    margin: 1em;
+}
+.alin-derecha {
+    float: right;
+}   
+div.insignias {
+/*     background-color: gainsboro; */
+    float: left;
+    width: 25%;
+    clear: right;
+    padding: 2em;
+}
+p {
+    clear: both;
+    margin-top: 2em;
+    padding: 2em;
+}
+.espacio-barra {
+    margin-bottom: 1em;
+}
+.alin-derecha {
+    float: right;
+}
+table {
+    width: 100%;
+}
+td {
+    margin: 20px;
+    padding: 20px;
+}
+.orienta-boton {
+    float: right;
+}
